@@ -1,0 +1,248 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+@keyframes intro{
+	0%{
+		opacity: 0;
+	}
+
+	100%{
+		opacity: 1;
+	}
+}
+
+.nav{
+	background-color: #1d1d1d;
+	padding: 15px 25px;
+	display: flex;
+	word-spacing: 25px;
+}
+
+.brand{
+	color: #b0b0b0;
+	text-decoration: none;
+	font-family: 'Roboto Mono', monospace;
+	transition: 0.5s;
+	float: left;
+	justify-content: left;
+	transform: translateX(-850px);
+}
+
+.brand:hover{
+	text-shadow: 0px 0px 25px;
+	color: #00ff8b;
+}
+
+.button{
+	justify-content: right;
+	font-family: 'Roboto', sans-serif;
+}
+
+.menu{
+	transform: translateX(980px);
+}
+
+.menu a{
+	text-decoration: none;
+	color: #a0a0a0;
+	animation-name: intro;
+	animation-duration: 1s;
+	transition: 0.5s;
+}
+
+.game{
+	animation-name: intro;
+	animation-duration: 1s;
+}
+
+.button:hover{
+   color: #fff;
+   text-shadow: 0px 0px 25px;
+}
+
+.mono{
+	font-family: 'Roboto Mono', monospace;
+	transform: translateY(320px);
+}
+
+.start{
+	color: #a0a0a0;
+	text-decoration: none;
+	padding: 15px 25px;
+	border-radius: 1.5em;
+	transition: 0.7s;
+	border: 1px solid #a0a0a0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.start:hover{
+	background-color: #a0a0a0;
+	color: #fff;
+	text-shadow: 0px 0px 5px;
+}
+
+.normal {
+	color: #a0a0a0;
+	text-decoration: none;
+	transition: 0.7s;
+	font-family: 'Roboto', sans-serif;
+	font-size: 35px;
+}
+
+.normal:hover{
+	color: #1d1d1d;
+	text-shadow: 0px 0px 15px;
+}
+
+.fail{
+	font-family: 'Roboto', sans-serif;
+}
+
+.question h1{
+	font-family: 'Roboto Mono', monospace;
+	font-size: 55px;
+	text-decoration: underline solid #a0a0a0;
+}
+
+.question{
+	transform: translateY(230px);
+}
+
+.question p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 24.5px;
+}
+
+.noscale{
+	font-family: 'Roboto', sans-serif;
+	font-size: 24.5px;
+	text-decoration: none;
+	transition: 0.7s;
+	color: #000;
+}
+
+.noscale:hover{
+	font-size: 80px;
+}
+
+.scale{
+	font-family: 'Roboto', sans-serif;
+	font-size: 22.5px;
+	color: #1d1d1d;
+	transition: 0.7s;
+	text-decoration: none;
+}
+
+.scale:hover{
+	font-size: 38.5px;
+}
+
+.disturbing{
+	color: red;
+	text-shadow: 0px 0px 15px;
+}
+
+.question1 h1{
+	font-family: 'Roboto Mono', monospace;
+	font-size: 55px;
+	text-decoration: underline solid #a0a0a0;
+}
+
+.question1{
+	transform: translateY(230px);
+	animation-name: final;
+	animation-duration: 15s;
+}
+
+.question1 p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 24.5px;
+}
+
+.end h1{
+	font-family: 'Roboto Mono', monospace;
+	font-size: 55px;
+	text-decoration: underline solid #a0a0a0;
+}
+
+.end{
+	transform: translateY(230px);
+	animation-name: end;
+	animation-duration: 55s;
+}
+
+.end p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 24.5px;
+}
+
+@keyframes final{
+	0%{
+		letter-spacing: 50px;
+		opacity: 0;
+	}
+
+	100%{
+		letter-spacing: 0px;
+		opacity: 1;
+	}
+
+	120%{
+			background-color: #000;
+	}
+}
+
+@keyframes end{
+	0%{
+		transform: translateY(50000);
+	}
+
+	100%{
+		transform: translateY(-1500px);
+	}
+}
+
+
+
+@media(max-width: 1000px){
+	.nav{
+		opacity: 0;
+		transition: 1s;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
